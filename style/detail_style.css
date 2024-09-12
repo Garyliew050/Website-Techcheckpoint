@@ -1,0 +1,81 @@
+html {
+    background-color: white;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.quote1 {
+    display: flex;
+    align-items: center;
+}
+
+.quote-image-container {
+    width: 500px;
+    height: 500px;
+    margin-right: 20px;
+}
+
+.quote-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.quote2 {
+    flex-grow: 1;
+}
+
+.quote-title {
+    font-size: 50px;
+    margin: 0;
+}
+
+.quote-price {
+    text-align: left;
+    font-size: 50px;
+    font: bold;
+    margin: 10px 0;
+}
+
+.quote-type {
+    font-size: 20px;
+    margin: 0;
+}
+
+.quote3 {
+    margin-top: 20px;
+}
+
+.quote-details {
+    font-size: 20px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.add_to_cart {
+    border: 1px solid black;
+    margin-left: 700px;
+    color: white;
+    font-size: 50px;
+    border: white;
+    border-radius: 5px;
+    background-color: #ff9d00;
+}
+
+p2:hover {
+    background-color: #f1bc66;
+
+}

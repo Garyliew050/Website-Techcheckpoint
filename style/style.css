@@ -1,0 +1,116 @@
+html {
+	background-color: #cfd1d6;
+}
+
+body {
+
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.pageHeader {
+	background-color: rgb(4, 42, 99);
+	color: #fff;
+	font-size: 30px;
+	padding: 20px;
+	font-family: "Trebuchet MS", Times;
+}
+
+#cart {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #3705c0;
+	font-size: 50px;
+	height: 83px;
+	z-index: 9999;
+}
+
+nav ul li {
+	display: inline-block;
+	position: relative;
+	z-index: 9999;
+}
+
+nav ul li a {
+
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	z-index: 9999;
+}
+
+nav ul li:hover>ul {
+	display: block;
+	z-index: 9999;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 83px;
+	left: 0;
+	background-color: #3705c0;
+	padding: 0;
+	z-index: 9999;
+}
+
+nav ul ul li {
+	display: block;
+}
+
+nav ul ul li a {
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	z-index: 9999;
+}
+
+main {
+	margin: 20px;
+}
+
+form {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+label {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+.naviIl a:hover {
+	background-color: #636cbb;
+	height: 63px;
+}
+
+.naviUl {
+	background-color: #3705c0;
+
+}
+
+.naviIl {
+	background-color: #3705c0;
+}
+
+footer {
+	font-style: italic;
+	padding: 10px;
+	text-align: center;
+}
+
+hr {
+	height: 3px;
+	width: 95%;
+	background-color: #000;
+}

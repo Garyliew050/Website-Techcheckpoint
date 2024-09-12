@@ -1,0 +1,170 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    background-color: #cfd1d6;
+}
+
+.contactusHeader {
+    background: #000000;
+    display: flex;
+    margin-top: 20px;
+    height: 150px;
+    border: solid 2px #000;
+}
+
+.contact1stHeader {
+    padding-left: 30px;
+    flex-grow: 1;
+}
+
+#contactH {
+    font-size: 30;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 255, 166);
+    letter-spacing: 0.5px;
+}
+
+#contact2ndH {
+    font-weight: bold;
+    color: #FFF;
+    letter-spacing: 0.5px;
+}
+
+#contact3rdH {
+    font-size: 30;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 166, 0, 0.5);
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-right: 60px;
+}
+
+.contactBodyHead h1,
+h2,
+h3 {
+    padding-left: 45px;
+    letter-spacing: 0.5px;
+}
+
+.contactLabel {
+    padding-left: 65px;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+}
+
+.contactLabel input {
+    font-size: 25px;
+    width: 1000px;
+}
+
+.contactLabel label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: -30px;
+}
+
+.contactLabel textarea {
+    font-size: 25px;
+    width: 1000px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 250px;
+}
+
+.contactLabel button {
+    margin: 20px;
+    font-size: 18px;
+    list-style-type: none;
+    border: solid 2px #000;
+    width: 300px;
+    height: 55px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-style: italic;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.contactLabel button:hover {
+    background-color: rgb(0, 255, 166);
+    border-radius: 100px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+#phoneNav {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: -5 px;
+    letter-spacing: 0.5px;
+}
+
+/* edit navigation in left side*/
+#phoneButton li {
+    margin: 20px;
+    font-size: 18px;
+    list-style-type: none;
+    border: solid 2px #000;
+    width: 300px;
+    height: 55px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-style: italic;
+    box-sizing: border-box;
+    border-radius: 100px;
+
+}
+
+#phoneButton li:hover {
+    background-color: rgb(0, 255, 166);
+    border-radius: 100px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+#EmailContactNav {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* edit navigation in left side*/
+#EmailButton li {
+    margin: 20px;
+    font-size: 18px;
+    list-style-type: none;
+    border: solid 2px #000;
+    width: 400px;
+    height: 100px;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 15px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-style: italic;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+#EmailButton li:hover {
+    background-color: rgb(0, 255, 166);
+    border-radius: 100px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

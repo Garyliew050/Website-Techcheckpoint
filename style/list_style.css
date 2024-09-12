@@ -1,0 +1,47 @@
+html {
+    background-color: white;
+}
+
+.quote-output {
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.eachitem {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    flex-basis: calc(25% - 10px);
+    margin: 0 5px 10px 0;
+}
+
+.listpart {
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.quote-image-container {
+    position: relative;
+}
+
+.filter {
+
+    font-weight: bold;
+    font-size: 30px;
+    border: 5px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 1400px;
+    height: 70px;
+}
+
+.filter a {
+    text-decoration: none;
+    margin: 30px;
+}

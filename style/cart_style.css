@@ -1,0 +1,101 @@
+h1 {
+    font-size: 60px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.quote1 {
+    display: flex;
+    align-items: center;
+}
+
+.quote-image-container {
+    width: 500px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.quote-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.quote2 {
+    flex-grow: 1;
+}
+
+.quote-title {
+    font-size: 30px;
+    margin: 0;
+}
+
+.quote-price {
+    text-align: right;
+    font-size: 30px;
+    font: bold;
+    margin: 10px 0;
+}
+
+.total {
+    text-align: right;
+    font-size: 40px;
+    font: bold
+}
+
+a {
+    text-decoration: none;
+}
+
+.payments {
+    border: 1px solid black;
+    color: white;
+    font-size: 70px;
+    border: white;
+    border-radius: 5px;
+    background-color: #ff9d00;
+}
+
+p2:hover {
+    background-color: #f1bc66;
+}
+
+.delete {
+    border: 2px solid black;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #bbbab7;
+
+}
+
+.delete:hover {
+    background-color: #e9e9e9;
+    color: black;
+}
+
+p1 {
+    font-size: 70px;
+    padding: 70px;
+}
+
+.payment {
+    float: right;
+    margin-right: 10px;
+}
+
+div.noItem {
+    text-align: center;
+    color: #c42814;
+    font-size: 30px;
+}
